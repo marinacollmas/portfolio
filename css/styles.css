@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-family:'Inter', sans-serif;    
     padding-left: 161px;
     padding-right: 161px;
     padding-bottom: 24px;
@@ -21,7 +21,7 @@ body {
 }
 
 .main-nav{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:'Inter', sans-serif;    
     font-style: normal;
     font-size: 16px;
     display: flex;
@@ -117,7 +117,7 @@ a:hover{
 }
 
 h1{
-    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+    font-family:'Inter', sans-serif; 
     font-weight:400; 
     font-stretch:normal;
     font-size: 58px;
@@ -128,7 +128,7 @@ h1{
 h2{
     font-family: 'Libre Baskerville', serif;
     font-size: 32px;
-    line-height: 24px;
+    line-height: 40px;
     font-style: italic;
 }
   
@@ -139,7 +139,7 @@ span{
 }
 
 .highlight{
-    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+    font-family:'Inter', sans-serif; 
     font-weight:400; 
     font-stretch: normal;
     font-size: 58px;
@@ -148,14 +148,14 @@ span{
 }
 
 h3{
-    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+    font-family:'Inter', sans-serif; 
     font-weight:400; 
     font-stretch:normal;
     font-size: 24px;
 }
 
 h4{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:'Inter', sans-serif;
     font-size: 20px; 
     display: block;
     margin-block-start: 2px;
@@ -214,8 +214,8 @@ h4{
     background-color: #C6C2FF;
 }
 
-.yellow{
-      background-color: #FFF7DF;
+.aqua{
+      background-color: #ECFAFA;
   }
 
 .blue{
@@ -246,7 +246,7 @@ h4{
 
 p{
     color: black;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:'Inter', sans-serif;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
@@ -292,9 +292,8 @@ footer{
 
 .about-container{
     display: grid;
-    margin-top: 128px;
+    margin-top: 40px;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 20px;
     width: 100%;
 }
 
@@ -367,7 +366,7 @@ footer{
     }
 
     h1{
-        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+        font-family:'Inter', sans-serif; 
         font-weight:200; 
         font-stretch: normal;
         font-size: 40px;
@@ -382,7 +381,7 @@ footer{
     }
 
     .highlight{
-        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+        font-family:'Inter', sans-serif;
         font-weight:200; 
         font-stretch: normal;
         font-size: 40px;
@@ -475,6 +474,7 @@ footer{
 
     #textabout{
         text-align: left;
+        width: 80%;
     }
 
     #contact_footer{
@@ -559,7 +559,7 @@ footer{
     }
 
     h1{
-        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+        font-family:'Inter', sans-serif; 
         font-weight:400; 
         font-stretch: normal;
         font-size: 48px;
@@ -579,7 +579,7 @@ footer{
     }
 
     .highlight{
-        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+        font-family:'Inter', sans-serif; 
         font-weight:400; 
         font-stretch: normal;
         font-size: 48px;
@@ -754,7 +754,7 @@ footer{
     }
 
     h1{
-        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+        font-family:'Inter', sans-serif;; 
         font-weight:400; 
         font-stretch: normal;
         font-size: 72px;
@@ -779,7 +779,7 @@ footer{
     }
 
     .highlight{
-        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+        font-family:'Inter', sans-serif; 
         font-weight: 400; 
         font-stretch: normal;
         font-size: 72px;
