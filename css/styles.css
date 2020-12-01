@@ -10,11 +10,6 @@ body {
     height: 100vh;
 }
 
-#home{
-    max-height: 100vh;
-    overflow: hidden;
-}
-
 .section_separate{
     margin-top: 56px;
     margin-bottom: 56px;
@@ -132,21 +127,6 @@ h2{
     font-style: italic;
 }
   
-span{
-    font-family: 'Libre Baskerville', serif;
-    font-size: 58px;
-    font-style: italic;
-}
-
-.highlight{
-    font-family:'Inter', sans-serif; 
-    font-weight:400; 
-    font-stretch: normal;
-    font-size: 58px;
-    font-style: normal;
-    box-shadow: inset 0 -55px 0 -4px #E4E5FF;
-}
-
 h3{
     font-family:'Inter', sans-serif; 
     font-weight:400; 
@@ -162,6 +142,31 @@ h4{
     margin-block-end: 2px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+h5{
+    font-family:'Inter', sans-serif; 
+    font-weight:400; 
+    font-stretch:normal;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom:32px;
+}
+
+
+span{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 58px;
+    font-style: italic;
+}
+
+.highlight{
+    font-family:'Inter', sans-serif; 
+    font-weight:400; 
+    font-stretch: normal;
+    font-size: 58px;
+    font-style: normal;
+    box-shadow: inset 0 -55px 0 -4px #E4E5FF;
 }
 
 .herotext-container{
@@ -196,6 +201,24 @@ h4{
 
 .project img{
     width: 100%;
+}
+
+.cs-info{
+    margin-top: 20px;
+}
+
+.cs-title{
+    font-family:'Inter', sans-serif;
+    font-size: 24px; 
+    line-height: 24px;
+
+}
+
+.label{
+    margin-top: 10px;
+    border-bottom: grey;
+    color: grey;
+    font-size: 14px;
 }
 
 .overlay {
@@ -234,7 +257,7 @@ h4{
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -406,6 +429,7 @@ footer{
         width: 100%;
         column-gap: 48px;
         row-gap: 48px;
+        display: none;
     }
     
     .project-image1{
@@ -481,6 +505,7 @@ footer{
         font-size: 24px;
         text-decoration: underline;
         line-height: 20px;
+        text-align: center;
     }
 
     #copyright{
@@ -630,6 +655,7 @@ footer{
         width: 100%;
         column-gap: 48px;
         row-gap: 48px;
+        display: none;
     }
     
     .project-image1{
@@ -814,7 +840,7 @@ footer{
     }
 
     .projectinfo{
-        font-family: 'Libre Baskerville', serif;
+        font-family: 'Inter', sans-serif; 
         font-style: italic;
         color: black;
         font-size: 32px;
