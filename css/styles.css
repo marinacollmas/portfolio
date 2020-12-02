@@ -459,7 +459,7 @@ footer{
     }
 
     .herotext-container{
-        margin-top: 118px;
+        margin-top: 80px;
     }
 
     .about-container{
@@ -599,7 +599,7 @@ footer{
     }
 
     .herotext-container{
-        margin-top: 128px;
+        margin-top: 80px;
         margin-bottom: 136px;
     }
 
@@ -613,7 +613,7 @@ footer{
     }
 
     .herotext-container{
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     button{
@@ -764,6 +764,10 @@ footer{
         margin: 0 0 32px 0 !important;
     }
 
+    .project {
+        display: none;
+    }
+
     .main-nav.visible {
         width: 100%;
         background: white;
@@ -859,6 +863,7 @@ footer{
         width: 100%;
         column-gap: 48px;
         row-gap: 48px;
+        display: none;
     }
     
     .project-image1{
